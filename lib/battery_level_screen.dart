@@ -110,9 +110,12 @@ class _BatteryLevelScreenState extends State<BatteryLevelScreen> {
           ),
           if (response?.error != null) ...[
             const SizedBox(height: 10),
-            Text(
-              response!.error!,
-              style: const TextStyle(color: Colors.red),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Text(
+                response!.error!,
+                style: const TextStyle(color: Colors.red),
+              ),
             ),
           ],
         ],
