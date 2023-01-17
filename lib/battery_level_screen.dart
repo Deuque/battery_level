@@ -76,7 +76,7 @@ class _BatteryLevelScreenState extends State<BatteryLevelScreen> {
                 width: 150,
                 decoration: BoxDecoration(
                   border: Border.all(color: borderColor),
-                  borderRadius: BorderRadius.circular(10),
+                  borderRadius: BorderRadius.circular(14),
                 ),
                 clipBehavior: Clip.antiAlias,
                 child: Stack(
@@ -98,11 +98,11 @@ class _BatteryLevelScreenState extends State<BatteryLevelScreen> {
               Transform.translate(
                 offset: const Offset(-1, 0),
                 child: Container(
-                  height: 20,
-                  width: 13,
+                  height: 17,
+                  width: 10,
                   decoration: BoxDecoration(
                     border: Border.all(color: borderColor),
-                    borderRadius: BorderRadius.circular(2.5),
+                    borderRadius: BorderRadius.circular(2),
                   ),
                 ),
               ),
